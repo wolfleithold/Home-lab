@@ -32,3 +32,36 @@ Current specs and setup of my homelab.
 | Wi-Fi | Realtek 8821CE 802.11ac | 433 Mbps | Inactive |
 | VirtualBox Host-Only | Virtual | 1 Gbps | Active |
 | Bluetooth | Bluetooth PAN | 3 Mbps | Inactive |
+
+## Ubuntu Server
+
+| Component | Specification |
+|---|---|
+| **Manufacturer** | MSI |
+| **Motherboard** | Z170A GAMING PRO CARBON |
+| **CPU** | Intel Core i7-6700K |
+| **Cores / Threads** | 4 / 8 |
+| **Base / Max Clock** | 4.0 / 4.2 GHz |
+| **RAM** | 16 GB DDR4 |
+| **RAM Configuration** | 2 × 8 GB |
+| **RAM Rated Speed** | 3200 MT/s |
+| **RAM Configured Speed** | 2667 MT/s |
+| **GPU** | NVIDIA GeForce GTX 970 |
+| **Storage** | ~1 TB HDD |
+| **OS** | Ubuntu 24.04.4 LTS |
+| **Architecture** | x86-64 |
+| **Virtualization** | Intel VT-x |
+| **BIOS** | AMI 1.20 |
+
+### Storage
+
+| Drive | Type | Capacity | Purpose |
+|---|---|---:|---|
+| WDC WD10EZEX | HDD | ~1 TB | Ubuntu + Homelab storage |
+
+### Networking
+
+| Interface | Type |
+|---|---|
+| Intel I219-V | Gigabit Ethernet |
+| Docker bridges | Virtual |
