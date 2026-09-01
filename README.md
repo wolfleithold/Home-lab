@@ -24,10 +24,10 @@ Current specs and setup of my homelab.
                                     Tailscale  Core services    AD / Kali /
                                     Uptime     Jellyfin         Linux / etc.
                                     Kuma       Grafana           Wazuh later
-                                          Prometheus
-                                          Homepage
-                                          Portainer
-
+                                               Prometheus
+                                               Homepage
+                                               Portainer
+  
 
 ## Main PC
 
