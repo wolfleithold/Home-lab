@@ -148,24 +148,17 @@ Current specs and setup of my homelab.
 
 ## Mac2
 
-| Component | Specification |
-|---|---|
-| **Model** | MacBook Pro |
-| **Model Identifier** | MacBookPro11,4 |
-| **CPU** | Quad-Core Intel Core i7 |
-| **CPU Speed** | 2.2 GHz |
-| **Cores / Threads** | 4 / 8 |
-| **RAM** | 16 GB DDR3-1600 |
-| **RAM Configuration** | 2 × 8 GB |
-| **GPU** | Intel Iris Pro |
-| **GPU VRAM** | Up to 1.5 GB Dynamic |
-| **Internal Storage** | 512 GB SSD |
-| **Storage Interface** | PCI |
-| **Display** | 2880 × 1800 Retina |
-| **OS** | macOS 11.7.11 |
-| **Wi-Fi** | AirPort |
-| **Battery Cycles** | 721 |
-| **Battery Condition** | Normal |
+- **Model:** MacBook Pro11,4
+- **CPU:** Intel Core i7-4770HQ (4 cores / 8 threads, 2.2 GHz)
+- **RAM:** 16 GB DDR3-1600
+- **Storage:** 500 GB PCIe SSD
+- **GPU:** Intel Iris Pro
+- **Virtualization:** Intel VT-x (VMX) supported
+- **Networking:** Wi-Fi
+- **Thunderbolt:** Thunderbolt 2 (up to 20 Gb/s)
+- **Battery:** Normal condition, 721 cycles
+- **Current OS:** macOS 11.7.11
+- **Planned Role:** Secondary compute / security workstation
 
 ## Time Capsule
 
