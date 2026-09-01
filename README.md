@@ -145,3 +145,10 @@ Current specs and setup of my homelab.
 | **Wi-Fi** | 802.11a/b/g/n |
 | **Frequency Bands** | 2.4 GHz / 5 GHz |
 | **Primary Use** | Network Storage / Backup |
+
+## Unmanaged Network Switch
+
+| **Component** | **Specification** |
+|---|---|
+| **Ports** | 8 × Gigabit RJ45 |
+| **Port Speed** | 10/100/1000 Mbps |
