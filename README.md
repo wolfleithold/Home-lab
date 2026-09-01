@@ -85,7 +85,7 @@ Current specs and setup of my homelab.
 | **Wi-Fi** | Intel Wi-Fi 6E AX211 |
 | **BIOS** | Insyde V1.18 |
 
-### Mac1
+## Mac1
 
 | Component | Specification |
 |---|---|
@@ -108,7 +108,7 @@ Current specs and setup of my homelab.
 | **Battery Cycles** | 627 |
 | **Battery Condition** | Normal |
 
-### Mac2
+## Mac2
 
 | Component | Specification |
 |---|---|
@@ -129,7 +129,7 @@ Current specs and setup of my homelab.
 | **Battery Cycles** | 721 |
 | **Battery Condition** | Normal |
 
-### Time Capsule
+## Time Capsule
 
 | Component | Specification |
 |---|---|
