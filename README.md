@@ -33,6 +33,7 @@ Current specs and setup of my homelab.
 | VirtualBox Host-Only | Virtual | 1 Gbps | Active |
 | Bluetooth | Bluetooth PAN | 3 Mbps | Inactive |
 
+
 ## Ubuntu Server
 
 | Component | Specification |
@@ -65,3 +66,21 @@ Current specs and setup of my homelab.
 |---|---|
 | Intel I219-V | Gigabit Ethernet |
 | Docker bridges | Virtual |
+
+
+## Windows Laptop
+
+| Component | Specification |
+|---|---|
+| **Manufacturer** | Acer |
+| **Model** | Aspire AV15-53P |
+| **CPU** | Intel Core i5-1335U |
+| **Cores / Threads** | 10 / 12 |
+| **RAM** | 8 GB |
+| **RAM Rated Speed** | 6400 MT/s |
+| **RAM Configured Speed** | 4800 MT/s |
+| **GPU** | Intel Iris Xe Graphics |
+| **Storage** | 512 GB Kingston NVMe SSD |
+| **OS** | Windows 10 Home 64-bit |
+| **Wi-Fi** | Intel Wi-Fi 6E AX211 |
+| **BIOS** | Insyde V1.18 |
