@@ -2,28 +2,28 @@
 
 Current specs and setup of my homelab.
 
-                                          INTERNET
-                                              │
-                                       Existing Home Router
-                                              │
-                                      ┌───────┴────────┐
-                                      │                │
-                                 Home LAN         Homelab/Lab
-                                      │                │
-                                Managed Switch   ──────┘
-                                      │
-                            ┌─────────┼──────────┐
-                            │         │          │
-                          Mac1     Ubuntu      Mac2
-                         Debian    Proxmox    Analyst /
-                         Infra     Server      Security
-                            │         │
-                            │    ┌────┴───────────────┐
-                            │    │                    │
-                        Pi-hole  Docker VM/LXC     Security VMs
-                        Tailscale  Core services    AD / Kali /
-                        Uptime     Jellyfin         Linux / etc.
-                        Kuma       Grafana           Wazuh later
+                                                INTERNET
+                                                    │
+                                             Existing Home Router
+                                                    │
+                                            ┌───────┴────────┐
+                                            │                │
+                                       Home LAN         Homelab/Lab
+                                            │                │
+                                      Managed Switch   ──────┘
+                                            │
+                                  ┌─────────┼──────────┐
+                                  │         │          │
+                                Mac1     Ubuntu      Mac2
+                               Debian    Proxmox    Analyst /
+                               Infra     Server      Security
+                                  │         │
+                                  │    ┌────┴───────────────┐
+                                  │    │                    │
+                              Pi-hole  Docker VM/LXC     Security VMs
+                              Tailscale  Core services    AD / Kali /
+                              Uptime     Jellyfin         Linux / etc.
+                              Kuma       Grafana           Wazuh later
                                     Prometheus
                                     Homepage
                                     Portainer
