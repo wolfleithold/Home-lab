@@ -128,3 +128,20 @@ Current specs and setup of my homelab.
 | **Wi-Fi** | AirPort |
 | **Battery Cycles** | 721 |
 | **Battery Condition** | Normal |
+
+### Time Capsule
+
+| Component | Specification |
+|---|---|
+| **Manufacturer** | Apple |
+| **Model** | AirPort Time Capsule |
+| **Model Identifier** | A1409 |
+| **Generation** | 4th Generation |
+| **Year Introduced** | 2011 |
+| **Internal Storage** | 2 TB HDD |
+| **Storage Interface** | SATA |
+| **Ethernet** | 1 × Gigabit WAN, 3 × Gigabit LAN |
+| **USB** | 1 × USB |
+| **Wi-Fi** | 802.11a/b/g/n |
+| **Frequency Bands** | 2.4 GHz / 5 GHz |
+| **Primary Use** | Network Storage / Backup |
