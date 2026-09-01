@@ -84,3 +84,47 @@ Current specs and setup of my homelab.
 | **OS** | Windows 10 Home 64-bit |
 | **Wi-Fi** | Intel Wi-Fi 6E AX211 |
 | **BIOS** | Insyde V1.18 |
+
+### Mac1
+
+| Component | Specification |
+|---|---|
+| **Model** | MacBook Pro |
+| **Model Identifier** | MacBookPro10,1 |
+| **CPU** | Quad-Core Intel Core i7 |
+| **CPU Speed** | 2.3 GHz |
+| **Cores / Threads** | 4 / 8 |
+| **RAM** | 8 GB DDR3-1600 |
+| **RAM Configuration** | 2 × 4 GB |
+| **GPU 1** | Intel HD Graphics 4000 |
+| **GPU 2** | NVIDIA GeForce GT 650M |
+| **Dedicated GPU VRAM** | 1 GB |
+| **Internal Storage** | 256 GB SSD |
+| **Storage Interface** | SATA |
+| **Display** | 2880 × 1800 Retina |
+| **OS** | macOS 10.15.8 |
+| **Wi-Fi** | AirPort |
+| **Ethernet** | USB 3.0 Gigabit Ethernet |
+| **Battery Cycles** | 627 |
+| **Battery Condition** | Normal |
+
+### Mac2
+
+| Component | Specification |
+|---|---|
+| **Model** | MacBook Pro |
+| **Model Identifier** | MacBookPro11,4 |
+| **CPU** | Quad-Core Intel Core i7 |
+| **CPU Speed** | 2.2 GHz |
+| **Cores / Threads** | 4 / 8 |
+| **RAM** | 16 GB DDR3-1600 |
+| **RAM Configuration** | 2 × 8 GB |
+| **GPU** | Intel Iris Pro |
+| **GPU VRAM** | Up to 1.5 GB Dynamic |
+| **Internal Storage** | 512 GB SSD |
+| **Storage Interface** | PCI |
+| **Display** | 2880 × 1800 Retina |
+| **OS** | macOS 11.7.11 |
+| **Wi-Fi** | AirPort |
+| **Battery Cycles** | 721 |
+| **Battery Condition** | Normal |
