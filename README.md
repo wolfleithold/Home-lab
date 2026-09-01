@@ -2,31 +2,42 @@
 
 Current specs and setup of my homelab.
 
-                                                      INTERNET
-                                                          │
-                                                   Existing Home Router
-                                                          │
-                                                  ┌───────┴────────┐
-                                                  │                │
-                                             Home LAN         Homelab/Lab
-                                                  │                │
-                                            Managed Switch   ──────┘
-                                                  │
-                                        ┌─────────┼──────────┐
-                                        │         │          │
-                                      Mac1     Ubuntu      Mac2
-                                     Debian    Proxmox    Analyst /
-                                     Infra     Server      Security
-                                        │         │
-                                        │    ┌────┴───────────────┐
-                                        │    │                    │
-                                    Pi-hole  Docker VM/LXC     Security VMs
-                                    Tailscale  Core services    AD / Kali /
-                                    Uptime     Jellyfin         Linux / etc.
-                                    Kuma       Grafana           Wazuh later
-                                               Prometheus
-                                               Homepage
-                                               Portainer
+                                      INTERNET
+                                          │
+                                   Existing Home Router
+                                  DHCP • NAT • Firewall
+                                      Wi-Fi Access Point
+                                          │
+                         ┌────────────────┴────────────────┐
+                         │                                 │
+                      Ethernet                           Wi-Fi
+                         │                                 │
+                  8-Port Unmanaged Switch           ┌──────┼──────────────┐
+                         │                          │      │              │
+              ┌──────────┼──────────┐             Mac2   Windows      Other Wi-Fi
+              │          │          │                    Laptop         Devices
+              │          │          │
+            Mac1      Ubuntu      Time Capsule
+           Debian    Proxmox VE      Storage /
+        Infrastructure  Server       Backup
+              │          │
+       ┌──────┼──────┐    │
+       │      │      │    │
+    Pi-hole Tailscale Uptime
+      DNS     VPN     Kuma
+                     Monitoring
+                         │
+                  ┌──────┴───────────────┐
+                  │                      │
+             Docker VM/LXC          Security VMs
+              Core Services          Lab Environment
+                  │                      │
+          ┌───────┼─────────┐      ┌─────┼──────────────┐
+          │       │         │      │     │              │
+       Jellyfin Grafana  Prometheus  AD  Kali       Linux Target
+       Homepage Portainer              │                 │
+                                  Windows Client       Wazuh
+                                                        later
   
 
 ## Main PC
